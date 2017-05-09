@@ -1,6 +1,5 @@
 # tictactoe
 
----
 ## setup
 
 * `git clone https://github.com/Will-Wrightwa/tictactoe.git`
