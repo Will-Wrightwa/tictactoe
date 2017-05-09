@@ -1,0 +1,48 @@
+ #app{
+   background-color: #14bdac;
+ }
+*{
+  padding: 0;
+  margin: 0;
+  font-family: monospace;
+}
+body{
+   background-color: #14bdac;
+}
+.app{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+/*#0da192*/
+.board{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width:99.9vmin;
+  height:100vmin;
+  background-color: #0da192;
+  color: #0da192;
+  align-content: space-between;
+}
+.tile{
+  display: flex;
+  justify-content: center;
+  width: 31.5vmin;
+  height: 31.5vmin;
+  background-color:  #14bdac;
+}
+.tile h1{
+  display: flex;
+  font-size: 24vmin;
+  align-self: center;
+  cursor: default;
+
+
+}
+.restart{
+  position: absolute;
+  cursor: default;
+  font-size: 7vmin;
+}
